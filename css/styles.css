@@ -456,7 +456,7 @@ margin-right: 120px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 16px;
 }
 
@@ -464,15 +464,24 @@ margin-right: 120px;
     display: flex;
     gap: 24px;
 }
-.subscribe-emale {
-    border: 1px solid #fff;
+.subscribe-email {
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
     padding: 8px 16px;
+    color: #ffffff;
 }
+
+.subscribe-email::placeholder {
+    color: #ffffff;
+}
+
 .subscribe-button {
     padding: 8px 24px;
     width: 165px;
@@ -481,8 +490,6 @@ margin-right: 120px;
     gap: 16px;
     align-items: center;
 }
-
-
 
 
 .modal-overlay {

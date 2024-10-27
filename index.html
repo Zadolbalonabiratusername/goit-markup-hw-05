@@ -455,7 +455,102 @@
             </li>
           </ul>
         </div>
+        <div class="foot-subscribe">
+          <h2 class="subscribe-title">Subscribe</h2>
+          <div class="subscribe">
+            <input
+              class="subscribe-emale"
+              name="user-emale"
+              placeholder="E-mail"
+            />
+            <button class="subscribe-button hero-button" type="submit">
+              <p>Subscribe</p>
+              <svg class="icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </footer>
+    <div class="modal-overlay">
+      <div class="modal">
+        <button class="button-close" type="button">
+          <svg class="close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp"></use>
+          </svg>
+        </button>
+
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="">
+          <label class="label-name" for="user-name">Name</label>
+
+          <div class="data-feald">
+            <input
+              class="user-data"
+              type="text"
+              name="user-name"
+              id="user-name"
+            />
+            <svg class="data-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-person-black-18dp"></use>
+            </svg>
+          </div>
+          <label class="label-name" for="user-phone">Phone</label>
+
+          <div class="data-feald">
+            <input
+              class="user-data"
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+            />
+            <svg class="data-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone-black-18dp"></use>
+            </svg>
+          </div>
+          <label class="label-name" for="user-email">Email</label>
+
+          <div class="data-feald">
+            <input
+              class="user-data"
+              type="email"
+              name="user-email"
+              id="user-email"
+            />
+            <svg class="data-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-email-black-18dp"></use>
+            </svg>
+          </div>
+
+          <label class="label-name" for="user-comment">Comment</label>
+          <textarea
+            class="comment"
+            name="user-comment"
+            placeholder="Text input"
+            id="user-comment"
+            rows="10"
+          ></textarea>
+
+          <div class="data-feald">
+            <input
+              class="user-data-check visually-hidden"
+              type="checkbox"
+              name="user-check"
+              id="user-check"
+            />
+            <label class="label-name" for="user-check"
+              ><span class="castom-check"
+                ><svg class="check-on" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use></svg></span
+              >I accept the terms and conditions of the
+              <span class="policy-text">Privacy Policy</span></label
+            >
+          </div>
+
+          <button class="hero-button send" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
